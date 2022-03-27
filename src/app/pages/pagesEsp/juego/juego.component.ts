@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Juego } from 'src/app/interfaces/juego.interface';
+import { LaCultaElement } from 'src/app/interfaces/element.interface';
 
 @Component({
   selector: 'app-juego',
@@ -8,7 +8,7 @@ import { Juego } from 'src/app/interfaces/juego.interface';
 })
 export class JuegoComponent implements OnInit {
 
-  juegoList: Juego[] =
+  juegoList: LaCultaElement[] =
   [
     {
       name: "Juego 1",

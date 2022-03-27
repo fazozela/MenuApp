@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Food } from 'src/app/interfaces/comida.interface';
+import { LaCultaElement } from 'src/app/interfaces/element.interface';
 
 @Component({
   selector: 'app-comida-eng',
@@ -8,7 +8,7 @@ import { Food } from 'src/app/interfaces/comida.interface';
 })
 export class ComidaEngComponent implements OnInit {
 
-  foodList: Food[] =
+  foodList: LaCultaElement[] =
     [
       {
         name: "Karapecho",
@@ -61,7 +61,7 @@ export class ComidaEngComponent implements OnInit {
 
     ]
 
-  paniniList: Food[] =
+  paniniList: LaCultaElement[] =
   [
     {
       name: "Tocino y queso",
@@ -83,7 +83,7 @@ export class ComidaEngComponent implements OnInit {
     }
     ]
 
-  tablitaList: Food[] =
+  tablitaList: LaCultaElement[] =
   [
     {
       name: "Poner nombre",
@@ -99,7 +99,7 @@ export class ComidaEngComponent implements OnInit {
     }
     ]
 
-  piqueoList: Food[] =
+  piqueoList: LaCultaElement[] =
   [
     {
       name: "Poner nombre",

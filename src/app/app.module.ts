@@ -22,6 +22,7 @@ import { PostreEngComponent } from './pages/pagesEng/postre-eng/postre-eng.compo
 import { PromoEngComponent } from './pages/pagesEng/promo-eng/promo-eng.component';
 import { JuegoEngComponent } from './pages/pagesEng/juego-eng/juego-eng.component';
 import { GoBackEngComponent } from './extras/go-back-eng/go-back-eng.component';
+import { ImagenPipe } from './pipes/imagen.pipe';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { GoBackEngComponent } from './extras/go-back-eng/go-back-eng.component';
     PostreEngComponent,
     PromoEngComponent,
     JuegoEngComponent,
-    GoBackEngComponent
+    GoBackEngComponent,
+    ImagenPipe
   ],
   imports: [
     BrowserModule,

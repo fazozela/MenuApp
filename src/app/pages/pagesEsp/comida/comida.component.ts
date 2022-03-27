@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Food } from 'src/app/interfaces/comida.interface';
+import { LaCultaElement } from 'src/app/interfaces/element.interface';
 
 @Component({
   selector: 'app-comida',
@@ -8,104 +8,93 @@ import { Food } from 'src/app/interfaces/comida.interface';
 })
 export class ComidaComponent implements OnInit {
 
-  foodList: Food[] =
+  foodList: LaCultaElement[] =
     [
+      {
+        name: "Pasta criolla",
+        price: 30,
+        ingredients: "Pasta criolla, crema de leche, albahaca, tocino, pollo salteado.",
+        img: "Pasta_Criolla"
+      },
       {
         name: "Karapecho",
         price: 30,
         ingredients: "Carne deshidratada, mote, papa, huevo, limón.",
-        recomendation: "Recomendado para 2 personas"
+        img: "Karapecho"
       },
       {
         name: "Sullka Karapanza",
         price: 25,
         ingredients: "Carne de res, mote salteado, papas doradas, salsa de la casa.",
-        recomendation: "Recomendado para 2 personas"
-      },
-      {
-        name: "Anticucho Ajicero",
-        price: 25,
-        ingredients: "Corazón de res, papas cocktail, ensalada de la casa, salsa de maní, uchuluru.",
-        recomendation: "Recomendado para 2 personas"
-      },
-      {
-        name: "Ají de fideo colonial",
-        price: 18,
-        ingredients: "Fideo, carne de res, ají padilla, huevo, arveja, zarza criolla, pan.",
-        recomendation: "Recomendado para 2 personas"
-      },
-      {
-        name: "Pique a lo macho",
-        price: 35,
-        ingredients: "Lomo, salchicha, papa frita, tomate cebolla, huevo de codorniz, salsas, mayonesa y mayonesa picante.",
-        recomendation: "Recomendado para 2 personas"
+        img: "Sullka"
       },
       {
         name: "Muslitos",
         price: 30,
         ingredients: "Muslitos de pollo crocante, salsa semi picante.",
-        recomendation: "Recomendado para 2 personas"
+        img: "Muslitos"
+      },
+      {
+        name: "Anticucho Ajicero",
+        price: 25,
+        ingredients: "Corazón de res, papas cocktail, ensalada de la casa, salsa de maní, uchuluru.",
+        img: "Anticucho_Ajicero"
+      },
+      {
+        name: "Ají de fideo colonial",
+        price: 18,
+        ingredients: "Fideo, carne de res, ají padilla, huevo, arveja, zarza criolla, pan.",
+        img: "Aji_Fideo"
+      },
+      {
+        name: "Pique a lo macho",
+        price: 35,
+        ingredients: "Lomo, salchicha, papa frita, tomate cebolla, huevo de codorniz, salsas, mayonesa y mayonesa picante.",
+        img: "Pique_Macho"
       },
       {
         name: "Burguer de la casa",
         price: 30,
         ingredients: "300 gramos de carne de res, pan, pickels, lechuga, tocino, queso muzarella, papas fritas, mayonesa.",
-        recomendation: "Recomendado para 2 personas"
+        img: "Burguer"
+      }
+    ]
+
+  paniniList: LaCultaElement[] =
+    [
+      {
+        name: "Panini de sullka",
+        price: 20,
+        img: "Panini_Sullka"
       },
       {
-        name: "Pasta criolla",
-        price: 30,
-        ingredients: "Pasta criolla, crema de leche, albahaca, tocino, pollo salteado.",
-        recomendation: "Recomendado para 2 personas"
-      }
-
+        name: "Panini queso y pesto",
+        price: 20,
+        img: "Panini_Pesto"
+      },
+      {
+        name: "Panini de tocino y queso",
+        price: 20,
+        img: "Panini_Tocino"
+      },
     ]
 
-  paniniList: Food[] =
+  piqueoList: LaCultaElement[] =
   [
     {
-      name: "Tocino y queso",
-      price: 18,
-      ingredients: "falta",
-      recomendation: "Recomendado para 2 personas"
-    },
-    {
-      name: "Panini sullka",
-      price: 18,
-      ingredients: "falta",
-      recomendation: "Recomendado para 2 personas"
-    },
-    {
-      name: "Panini queso y pesto",
-      price: 18,
-      ingredients: "falta",
-      recomendation: "Recomendado para 2 personas"
-    }
-    ]
-
-  tablitaList: Food[] =
-  [
-    {
-      name: "Poner nombre",
-      price: 55,
-      ingredients: "Quesos de viejo a joven, frutos deshidratados, chocolate, pan tostado, jamón",
-      recomendation: "Recomendado para 2 personas"
-    },
-    {
-      name: "Poner nombre",
-      price: 100,
-      ingredients: "Quesos de viejo a joven, frutos deshidratados, chocolate, pan tostado, jamón",
-      recomendation: "Recomendado para 4 personas"
-    }
-    ]
-
-  piqueoList: Food[] =
-  [
-    {
-      name: "Poner nombre",
+      name: "Porción de papas rústicas",
       price: 25,
-      ingredients: "Papas rústicas y quedo.",
-      recomendation: "Recomendado para 2 personas"
+      img: "Papas_Rusticas"
+    },
+    {
+      name: "Porción de papas",
+      price: 25,
+      img: "Papas_Fritas"
+    },
+    {
+      name: "Nachos con queso y tocino",
+      price: 25,
+      img: "Nachos_Queso"
     }
   ]
 

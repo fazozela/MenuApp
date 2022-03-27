@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Bebida } from 'src/app/interfaces/bebida.interface';
+import { LaCultaElement } from 'src/app/interfaces/element.interface';
 
 @Component({
   selector: 'app-bebida-eng',
@@ -8,7 +8,7 @@ import { Bebida } from 'src/app/interfaces/bebida.interface';
 })
 export class BebidaEngComponent implements OnInit {
 
-  cAperitivosList: Bebida[] =
+  cAperitivosList: LaCultaElement[] =
   [
     {
       name: "Gin Basil Smash",
@@ -28,7 +28,7 @@ export class BebidaEngComponent implements OnInit {
     }
     ]
 
-  cDulcesList: Bebida[] =
+  cDulcesList: LaCultaElement[] =
   [
     {
       name: "Berry Singani Punch",
@@ -40,7 +40,7 @@ export class BebidaEngComponent implements OnInit {
     }
     ]
 
-  cCortosList: Bebida[] =
+  cCortosList: LaCultaElement[] =
   [
     {
       name: "Penicillin",
@@ -57,7 +57,7 @@ export class BebidaEngComponent implements OnInit {
     }
     ]
 
-  refrescantesList: Bebida[] =
+  refrescantesList: LaCultaElement[] =
   [
     {
       name: "Dirty Mojito",
@@ -73,7 +73,7 @@ export class BebidaEngComponent implements OnInit {
     }
     ]
 
-  deAutorList: Bebida[] =
+  deAutorList: LaCultaElement[] =
   [
     {
       name: "Mockochinchi",
@@ -118,7 +118,7 @@ export class BebidaEngComponent implements OnInit {
     }
     ]
 
-  deLaCasaList: Bebida[] =
+  deLaCasaList: LaCultaElement[] =
   [
     {
       name: "Mojitos frutados",
@@ -183,7 +183,7 @@ export class BebidaEngComponent implements OnInit {
     },
     ]
 
-  botellonesList: Bebida[] =
+  botellonesList: LaCultaElement[] =
   [
     {
       name: "Berry Singani Punch",
@@ -202,7 +202,7 @@ export class BebidaEngComponent implements OnInit {
       },
     ]
 
-  barrilCervezaList: Bebida[] =
+  barrilCervezaList: LaCultaElement[] =
   [
     {
       name: "Artensalaes",
@@ -219,7 +219,7 @@ export class BebidaEngComponent implements OnInit {
       },
     ]
 
-  vasosList: Bebida[] =
+  vasosList: LaCultaElement[] =
   [
     {
       name: "Singani",

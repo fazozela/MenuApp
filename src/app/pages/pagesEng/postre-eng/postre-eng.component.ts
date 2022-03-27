@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Postre } from 'src/app/interfaces/postre.interface';
+import { LaCultaElement } from 'src/app/interfaces/element.interface';
 
 @Component({
   selector: 'app-postre-eng',
@@ -8,7 +8,7 @@ import { Postre } from 'src/app/interfaces/postre.interface';
 })
 export class PostreEngComponent implements OnInit {
 
-  postreList: Postre[] =
+  postreList: LaCultaElement[] =
   [
     {
       name: "Minitarta de hojarascas con guayaba",
@@ -33,7 +33,7 @@ export class PostreEngComponent implements OnInit {
     },
     ]
 
-  tortaList: Postre[] =
+  tortaList: LaCultaElement[] =
   [
     {
       name: "Torta de chocolate amargo y ajenjo",

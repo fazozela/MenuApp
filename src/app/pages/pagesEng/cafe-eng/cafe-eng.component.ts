@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Cafe } from 'src/app/interfaces/cafe.interface';
+import { LaCultaElement } from 'src/app/interfaces/element.interface';
 
 @Component({
   selector: 'app-cafe-eng',
@@ -8,7 +8,7 @@ import { Cafe } from 'src/app/interfaces/cafe.interface';
 })
 export class CafeEngComponent implements OnInit {
 
-  cafeList: Cafe[] =
+  cafeList: LaCultaElement[] =
   [
     {
       name: "Espresso",

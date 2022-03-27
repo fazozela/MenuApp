@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Promo } from 'src/app/interfaces/promo.interface';
+import { LaCultaElement } from 'src/app/interfaces/element.interface';
 
 @Component({
   selector: 'app-promo',
@@ -8,7 +8,7 @@ import { Promo } from 'src/app/interfaces/promo.interface';
 })
 export class PromoComponent implements OnInit {
 
-  promoList: Promo[] =
+  promoList: LaCultaElement[] =
   [
     {
       name: "Promo 1",

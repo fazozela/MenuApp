@@ -10,9 +10,10 @@
 
 <div class="container food-container">
   <div class="row menu-title-container">
-    <h4 class="menu-title">- Platos Tradicionales -</h4>
+    <h4 class="menu-title">- Platos -</h4>
   </div>
-  <div class="row mt-3 mr-1 ml-1 item-container" *ngFor="let item of foodList">
+  <div class="row mt-3 mr-1 ml-1 item-container"
+       *ngFor="let item of foodList; index as i">
     <div class="col-8">
       <div class="row pr-2">
         <div>
@@ -33,7 +34,7 @@
     <div class="col-4">
       <div class="row">
         <div class="col-6 p-0">
-          <img class="food-img" src="../../../assets/comida/comida1.png" alt="">
+          <img class="food-img" [src]="foodList[i] | imagen" alt="">
         </div>
         <div class="col-6 price-container">
           <span class="price-content">{{item.price}} Bs.</span>
@@ -47,7 +48,8 @@
   <div class="row menu-title-container">
     <h4 class="menu-title">- Paninis -</h4>
   </div>
-  <div class="row mt-3 mr-1 ml-1 item-container" *ngFor="let item of paniniList">
+  <div class="row mt-3 mr-1 ml-1 item-container"
+       *ngFor="let item of paniniList; index as i">
     <div class="col-8">
       <div class="row pr-2">
         <div>
@@ -68,42 +70,7 @@
     <div class="col-4">
       <div class="row">
         <div class="col-6 p-0">
-          <img class="food-img" src="../../../assets/comida/comida1.png" alt="">
-        </div>
-        <div class="col-6 price-container">
-          <span class="price-content">{{item.price}} Bs.</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container food-container mt-5">
-  <div class="row menu-title-container">
-    <h4 class="menu-title">- Tablitas -</h4>
-  </div>
-  <div class="row mt-3 mr-1 ml-1 item-container" *ngFor="let item of tablitaList">
-    <div class="col-8">
-      <div class="row pr-2">
-        <div>
-          <h4 class="item-title">
-            {{item.name | uppercase}}
-            <br>
-            <span class="item-ingredients">
-              {{item.ingredients}}
-            </span>
-            <br>
-            <span class="item-recomendation">
-              {{item.recomendation}}
-            </span>
-          </h4>
-        </div>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="row">
-        <div class="col-6 p-0">
-          <img class="food-img" src="../../../assets/comida/comida1.png" alt="">
+          <img class="food-img" [src]="paniniList[i] | imagen" alt="">
         </div>
         <div class="col-6 price-container">
           <span class="price-content">{{item.price}} Bs.</span>
@@ -117,7 +84,8 @@
   <div class="row menu-title-container">
     <h4 class="menu-title">- Piqueos -</h4>
   </div>
-  <div class="row mt-3 mr-1 ml-1 item-container" *ngFor="let item of piqueoList">
+  <div class="row mt-3 mr-1 ml-1 item-container"
+       *ngFor="let item of piqueoList; index as i">
     <div class="col-8">
       <div class="row pr-2">
         <div>
@@ -138,7 +106,7 @@
     <div class="col-4">
       <div class="row">
         <div class="col-6 p-0">
-          <img class="food-img" src="../../../assets/comida/comida1.png" alt="">
+          <img class="food-img" [src]="piqueoList[i] | imagen" alt="">
         </div>
         <div class="col-6 price-container">
           <span class="price-content">{{item.price}} Bs.</span>
