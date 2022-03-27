@@ -14,14 +14,17 @@ export class BebidaComponent implements OnInit {
       {
         name: "Horchalita",
         price: 25,
+        img: "Horchalita"
       },
       {
         name: "Mockochinchi",
         price: 30,
+        img: "Mockochinchi"
       },
       {
         name: "Juanita guayaba",
         price: 30,
+        img: "Juanita"
       },
       {
         name: "Jatun Pocoy",
@@ -30,22 +33,27 @@ export class BebidaComponent implements OnInit {
       {
         name: "Misky Sucre",
         price: 30,
+        img: "Misky"
       },
       {
         name: "Kachamosita",
-        price: 30
+        price: 30,
+        img: "Kachamosita"
       },
       {
         name: "Warmi",
-        price: 30
+        price: 30,
+        img: "Warmi"
       },
       {
         name: "Jin Cinnamon",
-        price: 30
+        price: 30,
+        img: "Cinnamon"
       },
       {
         name: "Caramel",
-        price: 25
+        price: 25,
+        img: "Caramel"
       }
     ]
 
@@ -55,12 +63,14 @@ export class BebidaComponent implements OnInit {
         name: "Ajenjo",
         price: 125,
         ingredients: "Licor botánico",
-        recomendation: "(botella)"
+        recomendation: "(botella)",
+        img: "Ajenjo"
       },
       {
         name: "Trencito los cintis",
         price: 100,
-        ingredients: "Ratafia membrillo, ratafia ciruela, coñac, ajenjo."
+        ingredients: "Ratafia membrillo, ratafia ciruela, coñac, ajenjo.",
+        img: "Trencito"
       }
     ]
 
@@ -69,7 +79,8 @@ export class BebidaComponent implements OnInit {
       {
         name: "Berry Singani Punch",
         price: 175,
-        ingredients: "Frutos rojos, singani, agua gasificada, limón."
+        ingredients: "Frutos rojos, singani, agua gasificada, limón.",
+        img: "Berries3"
       },
       {
         name: "Singanito",
@@ -88,39 +99,48 @@ export class BebidaComponent implements OnInit {
       {
         name: "Old Fashoned",
         price: 30,
-        ingredients: "Ahumado"
+        ingredients: "Ahumado",
+        img: "Old"
       },
       {
         name: "Margarita",
         price: 20,
+        img: "Margarita"
       },
       {
         name: "White Lady",
         price: 20,
+        img: "White"
       },
       {
         name: "Negroni",
         price: 20,
+        img: "Negroni"
       },
       {
         name: "Berry Singani Punch",
         price: 30,
+        img: "BerryV"
       },
       {
         name: "Piña colada",
         price: 25,
+        img: "PinaColada"
       },
       {
         name: "Mojitos frutados",
-        price: 25
+        price: 25,
+        img: "MojitoFrutado"
       },
       {
         name: "Queen Park Swizzle",
         price: 30,
+        img: "Queen"
       },
       {
         name: "Branca Julep",
-        price: 25
+        price: 25,
+        img: "Branca_Julep"
       }
     ]
 
@@ -129,15 +149,18 @@ export class BebidaComponent implements OnInit {
       {
         name: "Botellín cerveza Huari",
         price: 20,
-        recomendation: "Chocolate, Miel, Lagger"
+        recomendation: "Chocolate, Miel, Lagger",
+        img: "Botellin_Huari"
       },
       {
         name: "Botellín cerveza Corona",
         price: 20,
+        img: "Corona"
       },
       {
         name: "Botellín cerveza Sureña",
         price: 20,
+        img: "Surena"
       },
       {
         name: "Botellín cerveza artesanal",
@@ -151,7 +174,7 @@ export class BebidaComponent implements OnInit {
       {
         name: "Cerveza Huari",
         price: 25,
-        recomendation: "Chocolate, Miel, Lagger"
+        img: "Huari620"
       }
     ]
 
@@ -159,12 +182,14 @@ export class BebidaComponent implements OnInit {
     [
       {
         name: "Cerveza Paceña",
-        price: 30
+        price: 30,
+        img: "Pacena1"
       },
       {
         name: "Cerveza Potosina",
         price: 35,
-        recomendation: "1 & 1/4 lt"
+        recomendation: "1 & 1/4 lt",
+        img: "Potosina"
       }
     ]
 
@@ -172,35 +197,43 @@ export class BebidaComponent implements OnInit {
     [
       {
         name: "Johnnie Walker Double Black",
-        recomendation: "WHISKY"
+        recomendation: "WHISKY",
+        img: "Walker"
       },
       {
         name: "Johnnie Walker Black",
-        recomendation: "WHISKY"
+        recomendation: "WHISKY",
+        img: "Walker_Black"
       },
       {
         name: "Johnnie Walker Red",
-        recomendation: "WHISKY"
+        recomendation: "WHISKY",
+        img: "Walker_Red"
       },
       {
         name: "Old Parr",
-        recomendation: "WHISKY"
+        recomendation: "WHISKY",
+        img: "Old_Parr"
       },
       {
         name: "Sandy Mac",
-        recomendation: "WHISKY"
+        recomendation: "WHISKY",
+        img: "Sandy_Mac"
       },
       {
         name: "San Pedro",
-        recomendation: "SINGANI"
+        recomendation: "SINGANI",
+        img: "San_Pedro"
       },
       {
         name: "Flor de Caña 5 años",
-        recomendation: "RON"
+        recomendation: "RON",
+        img: "Flor"
       },
       {
         name: "Ron Abuelo 7 años",
-        recomendation: "RON"
+        recomendation: "RON",
+        img: "Abuelo"
       },
 
     ]
@@ -208,28 +241,36 @@ export class BebidaComponent implements OnInit {
   otrosList: LaCultaElement[] =
     [
       {
-        name: "Ajenjo 750 ml"
+        name: "Ajenjo 750 ml",
+        img: "Shot_Ajenjo"
       },
       {
-        name: "Ajenjo 50 ml"
+        name: "Ajenjo 50 ml",
+        img: "Shot_Ajenjo"
       },
       {
-        name: "Jaguermeister"
+        name: "Jaguermeister",
+        img: "Jagger"
       },
       {
-        name: "Fernet branca"
+        name: "Fernet branca",
+        img: "Branca"
       },
       {
-        name: "Fernet menta"
+        name: "Fernet menta",
+        img: "Branca"
       },
       {
-        name: "Gin Tanqueray"
+        name: "Gin Tanqueray",
+        img: "Tanquerray"
       },
       {
-        name: "Gin La Republica Amazónico, andino"
+        name: "Gin La Republica Amazónico, andino",
+        img: "Republica"
       },
       {
-        name: "Tequila José Cuervo reposado, plata"
+        name: "Tequila José Cuervo reposado, plata",
+        img: "Tequila"
       }
   ]
 
@@ -238,30 +279,37 @@ export class BebidaComponent implements OnInit {
       {
         name: "Mocktail",
         price: 20,
-        ingredients: "Coctel de frutas sin alcohol."
+        ingredients: "Coctel de frutas sin alcohol.",
+        img: "Mocktail"
       },
       {
         name: "Jugos naturales",
-        recomendation: "VASO"
+        recomendation: "VASO",
+        img: "Jugos"
       },
       {
         name: "Jugos naturales",
-        recomendation: "1 LITRO"
+        recomendation: "1 LITRO",
+        img: "Jugos"
       },
       {
         name: "Jugos naturales",
-        recomendation: "2 LITROs"
+        recomendation: "2 LITROs",
+        img: "Jugos"
       },
       {
-        name: "Agua C/S gas"
+        name: "Agua C/S gas",
+        img: "Agua"
       },
       {
         name: "Gaseosa",
-        recomendation: "500ML"
+        recomendation: "500ML",
+        img: "Soda"
       },
       {
         name: "Gaseosa",
-        recomendation: "2 LITROS"
+        recomendation: "2 LITROS",
+        img: "Soda"
       }
   ]
 
