@@ -14,40 +14,42 @@ export class CafeComponent implements OnInit {
     {
       name: "Espresso",
       price: 13,
-      ingredients: "falta",
+      img: "Expresso"
     },
     {
       name: "Capuccino",
       price: 15,
       ingredients: "Espresso, agua, leche espumosa",
+      img: "Capuccino"
     },
     {
       name: "Americano",
       price: 15,
       ingredients: "Espresso, agua",
+      img: "Americano"
     },
     {
       name: "Latte",
       price: 15,
       ingredients: "Espresso, leche",
+      img: "Latte"
     },
     {
       name: "Infusión de hierbas",
       price: 15,
       ingredients: "Manzanilla, coca, aniz, cedrón",
-    },
-    {
-      name: "Infusión de hierbas",
-      price: 15,
+      img: "Infusion"
     },
     {
       name: "Té de menta y limón",
       price: 10,
+      img: "Te_Menta"
     },
     {
       name: "Té de la casa",
       price: 13,
-      ingredients: "Té, leche evaporada"
+      ingredients: "Té, leche evaporada",
+      img: "Te_Evaporada"
     },
   ]
 
