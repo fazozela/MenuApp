@@ -9,18 +9,23 @@ import { LaCultaElement } from 'src/app/interfaces/element.interface';
 export class JuegoComponent implements OnInit {
 
   juegoList: LaCultaElement[] =
-  [
-    {
-      name: "Juego 1",
-      price: "Gratis",
-      ingredients: "Juego de rol para 4 personas."
+    [
+      {
+        name: "Uno",
+        price: "Gratis",
+        img: "Uno"
       },
-    {
-      name: "Juego 2",
-      price: "Gratis",
-      ingredients: "Juego de rol para 4 personas."
-    },
-  ]
+      {
+        name: "Cacho",
+        price: "Gratis",
+        img: "Cacho"
+      },
+      {
+        name: "Yenga",
+        price: "Gratis",
+        img: "Yenga"
+      },
+    ]
 
   constructor() { }
 

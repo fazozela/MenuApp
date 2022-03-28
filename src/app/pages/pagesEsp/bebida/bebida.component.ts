@@ -130,7 +130,7 @@ export class BebidaComponent implements OnInit {
       {
         name: "Mojitos frutados",
         price: 25,
-        img: "MojitoFrutado"
+        img: "Mojito_Frutado"
       },
       {
         name: "Queen Park Swizzle",

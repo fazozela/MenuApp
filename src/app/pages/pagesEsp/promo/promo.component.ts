@@ -9,18 +9,38 @@ import { LaCultaElement } from 'src/app/interfaces/element.interface';
 export class PromoComponent implements OnInit {
 
   promoList: LaCultaElement[] =
-  [
-    {
-      name: "Promo 1",
-      price: "-50",
-      ingredients: "Promo válida los miércoles"
+    [
+      {
+        name: "Ron 2x1",
+        price: "30",
+        img: "Vaso_Ron"
       },
-    {
-      name: "Promo 2",
-      price: "-80",
-      ingredients: "Promo válida los miércoles"
-    },
-  ]
+      {
+        name: "Singani 2x1",
+        price: "30",
+        img: "Vaso_Singani"
+      },
+      {
+        name: "Fernet 2x1",
+        price: "30",
+        img: "Branca"
+      },
+      {
+        name: "Mojito Frutado 2x1",
+        price: "30",
+        img: "Mojito_Frutado_Promo"
+      },
+      {
+        name: "Dirty Mojito 2x1",
+        price: "30",
+        img: "Dirty_Mojito"
+      },
+      {
+        name: "Caipirinha 2x1",
+        price: "30",
+        img: "Caipirinha"
+      }
+    ]
 
   constructor() { }
 
