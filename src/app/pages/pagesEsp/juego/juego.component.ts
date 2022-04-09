@@ -16,6 +16,11 @@ export class JuegoComponent implements OnInit {
         img: "Uno"
       },
       {
+        name: "Cartas",
+        price: "Gratis",
+        img: "Cartas"
+      },
+      {
         name: "Cacho",
         price: "Gratis",
         img: "Cacho"

@@ -23,16 +23,16 @@ export class PromoComponent implements OnInit {
       {
         name: "Fernet 2x1",
         price: "30",
-        img: "Branca"
+        img: "Vaso_Ron"
       },
       {
         name: "Mojito Frutado 2x1",
-        price: "30",
+        price: "40",
         img: "Mojito_Frutado_Promo"
       },
       {
         name: "Dirty Mojito 2x1",
-        price: "30",
+        price: "35",
         img: "Dirty_Mojito"
       },
       {

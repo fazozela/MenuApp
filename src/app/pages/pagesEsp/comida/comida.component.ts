@@ -17,6 +17,10 @@ export class ComidaComponent implements OnInit {
         img: "Pasta_Criolla"
       },
       {
+        name: "Milanesa Chesse",
+        price: 30,
+      },
+      {
         name: "Karapecho",
         price: 30,
         ingredients: "Carne deshidratada, mote, papa, huevo, limón.",
@@ -29,7 +33,7 @@ export class ComidaComponent implements OnInit {
         img: "Sullka"
       },
       {
-        name: "Muslitos",
+        name: "Muslitos BBQ",
         price: 30,
         ingredients: "Muslitos de pollo crocante, salsa semi picante.",
         img: "Muslitos"
@@ -64,19 +68,19 @@ export class ComidaComponent implements OnInit {
     [
       {
         name: "Panini de sullka",
-        price: 20,
+        price: 22,
         img: "Panini_Sullka"
-      },
-      {
-        name: "Panini queso y pesto",
-        price: 20,
-        img: "Panini_Pesto"
       },
       {
         name: "Panini de tocino y queso",
         price: 20,
         img: "Panini_Tocino"
       },
+      {
+        name: "Panini queso y pesto",
+        price: 20,
+        img: "Panini_Pesto"
+      }
     ]
 
   piqueoList: LaCultaElement[] =
@@ -88,13 +92,18 @@ export class ComidaComponent implements OnInit {
     },
     {
       name: "Porción de papas",
-      price: 25,
+      price: 10,
       img: "Papas_Fritas"
     },
     {
       name: "Nachos con queso y tocino",
       price: 25,
       img: "Nachos_Queso"
+    },
+    {
+      name: "Piqueo enrollado, jamon, pan y salsas",
+      price: 40,
+      img: "Piqueo_Tabla"
     }
   ]
 
