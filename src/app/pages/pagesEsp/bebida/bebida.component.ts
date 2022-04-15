@@ -207,7 +207,7 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Johnnie Walker Double Black",
-        price: 600,
+        price: 500,
         recomendation: "WHISKY",
         img: "Walker"
       },
@@ -267,12 +267,12 @@ export class BebidaComponent implements OnInit {
       {
         name: "Ajenjo 750 ml",
         price: 150,
-        img: "Shot_Ajenjo"
+        img: "Ajenjo"
       },
       {
         name: "Ajenjo 250 ml",
         price: 60,
-        img: "Shot_Ajenjo",
+        img: "Ajenjo_Mediano",
       },
       {
         name: "Ajenjo 50 ml",
