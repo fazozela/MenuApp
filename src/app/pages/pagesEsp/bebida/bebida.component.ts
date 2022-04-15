@@ -29,6 +29,7 @@ export class BebidaComponent implements OnInit {
       {
         name: "Jatun Pocoy",
         price: 30,
+        img: "Jatun"
       },
       {
         name: "Misky Sucre",
@@ -85,12 +86,14 @@ export class BebidaComponent implements OnInit {
       {
         name: "Singanito",
         price: 175,
-        ingredients: "Botella San Pedro, hielo, limón, bitter y canela."
+        ingredients: "Botella San Pedro, hielo, limón, bitter y canela.",
+        img: "Singanito"
       },
       {
         name: "Charcas Punch",
         price: 175,
-        ingredients: "Mango, durazno, tumbo, limón."
+        ingredients: "Mango, durazno, tumbo, limón.",
+        img: "Charcas"
       }
     ]
 
@@ -165,7 +168,8 @@ export class BebidaComponent implements OnInit {
       {
         name: "Botellín cerveza artesanal",
         price: 20,
-        ingredients: "Black, White, Ipa, Maracuyango"
+        ingredients: "Black, White, Ipa, Maracuyango",
+        img: "Artesanal"
       }
     ]
 
@@ -197,11 +201,13 @@ export class BebidaComponent implements OnInit {
     [
       {
         name: "Johnnie Walker Gold",
+        price: 730,
         recomendation: "WHISKY",
         img: "Walker_Gold"
       },
       {
         name: "Johnnie Walker Double Black",
+        price: 600,
         recomendation: "WHISKY",
         img: "Walker"
       },
@@ -219,11 +225,13 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Old Parr",
+        price: 450,
         recomendation: "WHISKY",
         img: "Old_Parr"
       },
       {
         name: "Sandy Mac",
+        price: 200,
         recomendation: "WHISKY",
         img: "Sandy_Mac"
       },
@@ -263,10 +271,12 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Ajenjo 250 ml",
-        img: "Shot_Ajenjo"
+        price: 60,
+        img: "Shot_Ajenjo",
       },
       {
         name: "Ajenjo 50 ml",
+        price: 30,
         img: "Shot_Ajenjo"
       },
       {
@@ -282,7 +292,7 @@ export class BebidaComponent implements OnInit {
       {
         name: "Fernet menta",
         price: 170,
-        img: "Branca"
+        img: "Branca_Menta"
       },
       {
         name: "Gin Tanqueray",
@@ -297,7 +307,7 @@ export class BebidaComponent implements OnInit {
       {
         name: "Gin La República reserva del maestro",
         price: 330,
-        img: "Republica"
+        img: "Republica_Maestro"
       },
       {
         name: "Tequila José Cuervo reposado, plata",
