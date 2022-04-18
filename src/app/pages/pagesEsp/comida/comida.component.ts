@@ -19,6 +19,7 @@ export class ComidaComponent implements OnInit {
       {
         name: "Milanesa Cheese",
         price: 30,
+        ingredients: "Milanesa de pollo, queso, tomate, papas fritas rústicas.",
         img: "Mila_Cheese"
       },
       {

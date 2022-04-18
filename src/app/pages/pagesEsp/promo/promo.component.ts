@@ -39,6 +39,16 @@ export class PromoComponent implements OnInit {
         name: "Caipirinha 2x1",
         price: "30",
         img: "Caipirinha"
+      },
+      {
+        name: "Cerveza rubia o artesanal 2x1",
+        price: "30",
+        img: "Promo_Artesanal"
+      },
+      {
+        name: "Gin con Gin/Tonic",
+        price: 50,
+        img: "Promo_Gin"
       }
     ]
 
