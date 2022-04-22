@@ -8,236 +8,359 @@ import { LaCultaElement } from 'src/app/interfaces/element.interface';
 })
 export class BebidaEngComponent implements OnInit {
 
-  cAperitivosList: LaCultaElement[] =
-  [
-    {
-      name: "Gin Basil Smash",
-      price: 30,
-    },
-    {
-      name: "Margarita",
-      price: 20,
-    },
-    {
-      name: "White Lady",
-      price: 20,
-    },
-    {
-      name: "Negroni",
-      price: 20,
-    }
+  autorList: LaCultaElement[] =
+
+    [
+      {
+        name: "Horchalita",
+        price: 25,
+        img: "Horchalita"
+      },
+      {
+        name: "Mockochinchi",
+        price: 30,
+        img: "Mockochinchi"
+      },
+      {
+        name: "Juanita guayaba",
+        price: 30,
+        img: "Juanita"
+      },
+      {
+        name: "Jatun Pocoy",
+        price: 30,
+        img: "Jatun"
+      },
+      {
+        name: "Misky Sucre",
+        price: 30,
+        img: "Misky"
+      },
+      {
+        name: "K´achamosita",
+        price: 30,
+        img: "Kachamosita"
+      },
+      {
+        name: "Warmi",
+        price: 30,
+        img: "Warmi"
+      },
+      {
+        name: "Gin Cinnamon",
+        price: 30,
+        img: "Cinnamon"
+      },
+      {
+        name: "Caramel",
+        price: 25,
+        img: "Caramel"
+      }
     ]
 
-  cDulcesList: LaCultaElement[] =
-  [
-    {
-      name: "Berry Singani Punch",
-      price: 30,
-    },
-    {
-      name: "Piña colada",
-      price: 25,
-    }
-    ]
-
-  cCortosList: LaCultaElement[] =
-  [
-    {
-      name: "Penicillin",
-      price: 25,
-    },
-    {
-      name: "Old Fashoned",
-      price: 30,
-      ingredients: "Ahumado"
-    },
-    {
-      name: "Coctel Caliente",
-      price: 25,
-    }
-    ]
-
-  refrescantesList: LaCultaElement[] =
-  [
-    {
-      name: "Dirty Mojito",
-      price: 25,
-    },
-    {
-      name: "Branca Julep",
-      price: 25
-    },
-    {
-      name: "Queen Park Swizzle",
-      price: 30,
-    }
-    ]
-
-  deAutorList: LaCultaElement[] =
-  [
-    {
-      name: "Mockochinchi",
-      price: 25,
-    },
-    {
-      name: "Kachamosita",
-      price: 30,
-      ingredients: "Kari Warmi"
-    },
-    {
-      name: "Juanita guayaba",
-      price: 30,
-    },
-    {
-      name: "Mojitos frutados",
-      price: 25,
-    },
-    {
-      name: "Horchalita",
-      price: 25,
-    },
-    {
-      name: "Jatun Pocoy",
-      price: 30,
-    },
-    {
-      name: "Gin Cinnamon",
-      price: 30,
-    },
-    {
-      name: "Coctel caliente",
-      price: 25,
-    },
-    {
-      name: "Ciudad Blanca",
-      price: 30,
-    },
-    {
-      name: "Misky Sucre",
-      price: 30,
-    }
-    ]
-
-  deLaCasaList: LaCultaElement[] =
-  [
-    {
-      name: "Mojitos frutados",
-      price: 25,
-      ingredients: "Tumbo, frutos rojos, mango, maracuya."
+  casaList: LaCultaElement[] =
+    [
+      {
+        name: "Ajenjo",
+        price: 150,
+        ingredients: "botanical liqueur",
+        recomendation: "(botella)",
+        img: "Ajenjo"
       },
-    {
-      name: "Mocktail",
-      price: 20,
-      ingredients: "Coctel de frutas sin alcohol."
-      },
-    {
-      name: "Cata Menestral",
-      price: 75,
-      ingredients: "Degustación de 4 variedades de nuestras cervezas artesanales."
-      },
-    {
-      name: "Trencito los cintis",
-      price: 55,
-      ingredients: "Ratafia membrillo, ratafia ciruela, coñac, ajenjo."
-      },
-    {
-      name: "Shots",
-      price: 15,
-      ingredients: "Ajenjo, ratafia, coñac, tequila, Jaguermeister, baileys."
-      },
-    {
-      name: "Botellín cerveza artesanal",
-      price: 20,
-      },
-    {
-      name: "Botellín cerveza Corona",
-      price: 20,
-      },
-    {
-      name: "Botellín cerveza Sureña",
-      price: 20,
-      },
-    {
-      name: "Botellín cerveza Huari",
-      price: 20,
-      },
-    {
-      name: "Maracuyango",
-      price: 30,
-      ingredients: "500 ml"
-      },
-    {
-      name: "Cerveza Paceña",
-      price: 35,
-      ingredients: "1 litro"
-      },
-    {
-      name: "Cerveza Huari",
-      price: 25,
-      ingredients: "620 ml"
-      },
-    {
-      name: "Cerveza artesanal",
-      price: 25,
-      ingredients: "620 ml"
-    },
+      {
+        name: "Trencito los Cintis",
+        price: 100,
+        ingredients: "Ratafia membrillo, ratafia ciruela, coñac, ajenjo.",
+        img: "Trencito"
+      }
     ]
 
   botellonesList: LaCultaElement[] =
-  [
-    {
-      name: "Berry Singani Punch",
-      price: 175,
-      ingredients: "Frutos rojos, singani, agua gasificada, limón."
+    [
+      {
+        name: "Berry Singani Punch",
+        price: 175,
+        ingredients: "Berries, singani, carbonated water, lemon.",
+        img: "Berries3"
       },
-    {
-      name: "Charcas Punch",
-      price: 175,
-      ingredients: "Mango, durazno, tumbo, limón."
+      {
+        name: "Singanito",
+        price: 175,
+        ingredients: "Botella San Pedro, ice, lemon, bitter and cinnamon.",
+        img: "Singanito"
       },
-    {
-      name: "Singanito",
-      price: 175,
-      ingredients: "Botella San Pedro, hielo, limón, bitter y canela."
-      },
+      {
+        name: "Charcas Punch",
+        price: 175,
+        ingredients: "Mango, peach, tumbo, lemon.",
+        img: "Charcas"
+      }
     ]
 
-  barrilCervezaList: LaCultaElement[] =
-  [
-    {
-      name: "Artensalaes",
-      price: 145,
-      ingredients: "Cervezas artesanales de temporada."
+  clasicasList: LaCultaElement[] =
+    [
+      {
+        name: "Old Fashioned",
+        price: 30,
+        ingredients: "Smoked drink",
+        img: "Old"
       },
-    {
-      name: "Huari",
-      price: 125
+      {
+        name: "Margarita",
+        price: 20,
+        img: "Margarita"
       },
-    {
-      name: "Paceña Pilsener",
-      price: 110,
+      {
+        name: "White Lady",
+        price: 20,
+        img: "White"
       },
+      {
+        name: "Negroni",
+        price: 20,
+        img: "Negroni"
+      },
+      {
+        name: "Berry Singani Punch",
+        price: 30,
+        img: "BerryV"
+      },
+      {
+        name: "Piña colada",
+        price: 25,
+        img: "PinaColada"
+      },
+      {
+        name: "Fruit Mojitos",
+        price: 25,
+        img: "Mojito_Frutado"
+      },
+      {
+        name: "Queen Park Swizzle",
+        price: 30,
+        img: "Queen"
+      },
+      {
+        name: "Branca Julep",
+        price: 25,
+        img: "Branca_Julep"
+      }
     ]
 
-  vasosList: LaCultaElement[] =
-  [
-    {
-      name: "Singani",
-      price: 20,
-      ingredients: "C/S canela"
+  botellinesList: LaCultaElement[] =
+    [
+      {
+        name: "Huari beer bottle",
+        price: 20,
+        ingredients: "Chocolate, Miel, Lagger",
+        img: "Botellin_Huari"
       },
-    {
-      name: "Ron",
-      price: 20
+      {
+        name: "Corona beer bottle",
+        price: 20,
+        img: "Corona"
       },
-    {
-      name: "Fernet",
-      price: 20,
+      {
+        name: "Sureña beer bottle",
+        price: 20,
+        img: "Surena"
       },
-    {
-    name: "Mojito y mojito frutado",
-    price: 25,
-    },
+      {
+        name: "Craft beer bottle",
+        price: 20,
+        ingredients: "Black, White, Ipa, Maracuyango",
+        img: "Artesanal"
+      }
+    ]
+
+  botella620List: LaCultaElement[] =
+    [
+      {
+        name: "Huari beer",
+        price: 25,
+        img: "Huari620"
+      }
+    ]
+
+  botellaLitroList: LaCultaElement[] =
+    [
+      {
+        name: "Paceña beer",
+        price: 30,
+        img: "Pacena1"
+      },
+      {
+        name: "Potosina beer",
+        price: 35,
+        ingredients: "1250ml",
+        img: "Potosina"
+      }
+    ]
+
+  botellaList: LaCultaElement[] =
+    [
+      {
+        name: "Johnnie Walker Gold",
+        price: 730,
+        recomendation: "WHISKY",
+        img: "Walker_Gold"
+      },
+      {
+        name: "Johnnie Walker Double Black",
+        price: 500,
+        recomendation: "WHISKY",
+        img: "Walker"
+      },
+      {
+        name: "Johnnie Walker Black",
+        price: 400,
+        recomendation: "WHISKY",
+        img: "Walker_Black"
+      },
+      {
+        name: "Johnnie Walker Red",
+        price: 200,
+        recomendation: "WHISKY",
+        img: "Walker_Red"
+      },
+      {
+        name: "Old Parr",
+        price: 450,
+        recomendation: "WHISKY",
+        img: "Old_Parr"
+      },
+      {
+        name: "Sandy Mac",
+        price: 200,
+        recomendation: "WHISKY",
+        img: "Sandy_Mac"
+      },
+      {
+        name: "San Pedro",
+        price: 175,
+        recomendation: "SINGANI",
+        img: "San_Pedro"
+      },
+      {
+        name: "Tierra Alta",
+        price: 175,
+        recomendation: "SINGANI",
+        img: "Tierra_Alta"
+      },
+      {
+        name: "Flor de Caña 5 years",
+        price: 160,
+        recomendation: "RON",
+        img: "Flor"
+      },
+      {
+        name: "Ron Abuelo 7 years",
+        price: 220,
+        recomendation: "RON",
+        img: "Abuelo"
+      },
+
+    ]
+
+  otrosList: LaCultaElement[] =
+    [
+      {
+        name: "Ajenjo 750 ml",
+        price: 150,
+        img: "Ajenjo"
+      },
+      {
+        name: "Ajenjo 250 ml",
+        price: 60,
+        img: "Ajenjo_Mediano",
+      },
+      {
+        name: "Ajenjo 50 ml",
+        price: 30,
+        img: "Shot_Ajenjo"
+      },
+      {
+        name: "Jaguermeister",
+        price: 200,
+        img: "Jagger"
+      },
+      {
+        name: "Fernet branca",
+        price: 170,
+        img: "Branca"
+      },
+      {
+        name: "Fernet menta",
+        price: 170,
+        img: "Branca_Menta"
+      },
+      {
+        name: "Gin Tanqueray",
+        price: 350,
+        img: "Tanquerray"
+      },
+      {
+        name: "Gin La Republica Amazónico Andino",
+        price: 300,
+        img: "Republica"
+      },
+      {
+        name: "Gin La República Reserva del Maestro",
+        price: 330,
+        img: "Republica_Maestro"
+      },
+      {
+        name: "Tequila José Cuervo Reposado, Silver",
+        price: 200,
+        img: "Tequila"
+      }
+  ]
+
+  sinAlcoholList: LaCultaElement[] =
+    [
+      {
+        name: "Mocktail",
+        price: 20,
+        ingredients: "Non-alcoholic fruit cocktail.",
+        img: "Mocktail"
+      },
+      {
+        name: "Natural juices",
+        price: 10,
+        recomendation: "Cup",
+        img: "Jugos"
+      },
+      {
+        name: "Natural juices",
+        price: 18,
+        recomendation: "1 LT",
+        img: "Jugos"
+      },
+      {
+        name: "Natural juices",
+        price: 25,
+        recomendation: "2 LT",
+        img: "Jugos"
+      },
+      {
+        name: "Still and sparkling water",
+        price: 10,
+        img: "Agua"
+      },
+      {
+        name: "Soda",
+        price: 10,
+        ingredients: "Salvietti, Coca-Cola, Fanta, Sprite, Guaraná",
+        recomendation: "500ML",
+        img: "Soda"
+      },
+      {
+        name: "Soda",
+        price: 20,
+        ingredients: "Salvietti, Coca-Cola, Fanta, Sprite, Guaraná",
+        recomendation: "2 LT",
+        img: "Soda"
+      }
   ]
 
   constructor() { }

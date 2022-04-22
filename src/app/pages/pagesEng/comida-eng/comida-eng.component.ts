@@ -11,101 +11,101 @@ export class ComidaEngComponent implements OnInit {
   foodList: LaCultaElement[] =
     [
       {
+        name: "Creole pasta",
+        price: 30,
+        ingredients: "Creole pasta, milk cream, basil, bacon, sautéed chicken.",
+        img: "Pasta_Criolla"
+      },
+      {
+        name: "Milanese Cheese",
+        price: 30,
+        ingredients: "Chicken milanese, cheese, tomato, rustic fries.",
+        img: "Mila_Cheese"
+      },
+      {
         name: "Karapecho",
         price: 30,
-        ingredients: "Carne deshidratada, mote, papa, huevo, limón.",
-        recomendation: "Recomendado para 2 personas"
+        ingredients: "Dehydrated meat, mote, potato, egg, lemon.",
+        img: "Karapecho"
       },
       {
         name: "Sullka Karapanza",
         price: 25,
-        ingredients: "Carne de res, mote salteado, papas doradas, salsa de la casa.",
-        recomendation: "Recomendado para 2 personas"
+        ingredients: "Beef, sautéed mote, golden potatoes, house sauce.",
+        img: "Sullka"
+      },
+      {
+        name: "BBQ drumsticks",
+        price: 30,
+        ingredients: "Crispy chicken thighs, semi spicy sauce.",
+        img: "Muslitos"
       },
       {
         name: "Anticucho Ajicero",
         price: 25,
-        ingredients: "Corazón de res, papas cocktail, ensalada de la casa, salsa de maní, uchuluru.",
-        recomendation: "Recomendado para 2 personas"
+        ingredients: "Beef heart, cocktail potatoes, house salad, peanut sauce, uchuluru.",
+        img: "Anticucho_Ajicero"
       },
       {
         name: "Ají de fideo colonial",
         price: 18,
-        ingredients: "Fideo, carne de res, ají padilla, huevo, arveja, zarza criolla, pan.",
-        recomendation: "Recomendado para 2 personas"
+        ingredients: "Noodles, beef, padilla chili, egg, peas, Creole bush, bread.",
+        img: "Aji_Fideo"
       },
       {
         name: "Pique a lo macho",
         price: 35,
-        ingredients: "Lomo, salchicha, papa frita, tomate cebolla, huevo de codorniz, salsas, mayonesa y mayonesa picante.",
-        recomendation: "Recomendado para 2 personas"
+        ingredients: "Beef, sausage, french fries, onion tomato, quail egg, sauces, mayonnaise and spicy mayonnaise.",
+        img: "Pique_Macho"
       },
       {
-        name: "Muslitos",
+        name: "House burger",
         price: 30,
-        ingredients: "Muslitos de pollo crocante, salsa semi picante.",
-        recomendation: "Recomendado para 2 personas"
-      },
-      {
-        name: "Burguer de la casa",
-        price: 30,
-        ingredients: "300 gramos de carne de res, pan, pickels, lechuga, tocino, queso muzarella, papas fritas, mayonesa.",
-        recomendation: "Recomendado para 2 personas"
-      },
-      {
-        name: "Pasta criolla",
-        price: 30,
-        ingredients: "Pasta criolla, crema de leche, albahaca, tocino, pollo salteado.",
-        recomendation: "Recomendado para 2 personas"
+        ingredients: "300 grams of beef, bread, pickels, lettuce, bacon, mozzarella cheese, french fries, mayonnaise.",
+        img: "Burguer"
       }
-
     ]
 
   paniniList: LaCultaElement[] =
-  [
-    {
-      name: "Tocino y queso",
-      price: 18,
-      ingredients: "falta",
-      recomendation: "Recomendado para 2 personas"
-    },
-    {
-      name: "Panini sullka",
-      price: 18,
-      ingredients: "falta",
-      recomendation: "Recomendado para 2 personas"
-    },
-    {
-      name: "Panini queso y pesto",
-      price: 18,
-      ingredients: "falta",
-      recomendation: "Recomendado para 2 personas"
-    }
-    ]
-
-  tablitaList: LaCultaElement[] =
-  [
-    {
-      name: "Poner nombre",
-      price: 55,
-      ingredients: "Quesos de viejo a joven, frutos deshidratados, chocolate, pan tostado, jamón",
-      recomendation: "Recomendado para 2 personas"
-    },
-    {
-      name: "Poner nombre",
-      price: 100,
-      ingredients: "Quesos de viejo a joven, frutos deshidratados, chocolate, pan tostado, jamón",
-      recomendation: "Recomendado para 4 personas"
-    }
+    [
+      {
+        name: "Sullka panini",
+        price: 22,
+        img: "Panini_Sullka"
+      },
+      {
+        name: "Bacon and Cheese Panini",
+        price: 20,
+        img: "Panini_Tocino"
+      },
+      {
+        name: "Panini cheese and pesto",
+        price: 20,
+        img: "Panini_Pesto"
+      }
     ]
 
   piqueoList: LaCultaElement[] =
   [
     {
-      name: "Poner nombre",
+      name: "Portion of rustic potatoes",
       price: 25,
-      ingredients: "Papas rústicas y quedo.",
-      recomendation: "Recomendado para 2 personas"
+      img: "Papas_Rusticas"
+    },
+    {
+      name: "Portion of potatoes",
+      price: 10,
+      img: "Papas_Fritas"
+    },
+    {
+      name: "Nachos with cheese and bacon",
+      price: 25,
+      img: "Nachos_Queso"
+    },
+    {
+      name: "Rolled piqueo, ham, bread and sauces",
+      price: 40,
+      img: "Piqueo_Tabla"
     }
   ]
 

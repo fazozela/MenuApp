@@ -68,7 +68,7 @@ export class BebidaComponent implements OnInit {
         img: "Ajenjo"
       },
       {
-        name: "Trencito los cintis",
+        name: "Trencito los Cintis",
         price: 100,
         ingredients: "Ratafia membrillo, ratafia ciruela, coñac, ajenjo.",
         img: "Trencito"
@@ -100,7 +100,7 @@ export class BebidaComponent implements OnInit {
   clasicasList: LaCultaElement[] =
     [
       {
-        name: "Old Fashoned",
+        name: "Old Fashioned",
         price: 30,
         ingredients: "Ahumado",
         img: "Old"

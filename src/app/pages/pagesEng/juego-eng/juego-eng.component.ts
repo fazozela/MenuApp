@@ -11,14 +11,24 @@ export class JuegoEngComponent implements OnInit {
   juegoList: LaCultaElement[] =
   [
     {
-      name: "Juego 1",
+      name: "Uno",
       price: "Gratis",
-      ingredients: "Juego de rol para 4 personas."
-      },
+      img: "Uno"
+    },
     {
-      name: "Juego 2",
+      name: "Playing cards",
       price: "Gratis",
-      ingredients: "Juego de rol para 4 personas."
+      img: "Cartas"
+    },
+    {
+      name: "Cacho",
+      price: "Gratis",
+      img: "Cacho"
+    },
+    {
+      name: "Yenga",
+      price: "Gratis",
+      img: "Yenga"
     },
   ]
 
