@@ -17,7 +17,7 @@ export class ComidaEngComponent implements OnInit {
         img: "Pasta_Criolla"
       },
       {
-        name: "Milanese Cheese",
+        name: "Milanesa Cheese",
         price: 30,
         ingredients: "Chicken milanese, cheese, tomato, rustic fries.",
         img: "Mila_Cheese"
