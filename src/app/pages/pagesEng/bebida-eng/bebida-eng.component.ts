@@ -68,6 +68,11 @@ export class BebidaEngComponent implements OnInit {
         img: "Ajenjo"
       },
       {
+        name: "Ajenjo Collins",
+        price: 25,
+        img: "Ajenjo"
+      },
+      {
         name: "Trencito los Cintis",
         price: 100,
         ingredients: "Ratafia membrillo, ratafia ciruela, coñac, ajenjo.",
