@@ -30,7 +30,7 @@ export class ComidaEngComponent implements OnInit {
       },
       {
         name: "Sullka Karapanza",
-        price: 25,
+        price: 35,
         ingredients: "Beef, sautéed mote, golden potatoes, house sauce.",
         img: "Sullka"
       },
