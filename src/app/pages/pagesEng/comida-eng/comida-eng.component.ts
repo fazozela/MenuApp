@@ -59,7 +59,13 @@ export class ComidaEngComponent implements OnInit {
         img: "Pique_Macho"
       },
       {
-        name: "House burger",
+        name: "Classic house burger",
+        price: 25,
+        ingredients: "300 grams of beef, bread, pickels, lettuce, bacon, mozzarella cheese, french fries, mayonnaise.",
+        img: "Burguer"
+      },
+      {
+        name: "Premium burger",
         price: 30,
         ingredients: "300 grams of beef, bread, pickels, lettuce, bacon, mozzarella cheese, french fries, mayonnaise.",
         img: "Burguer"
@@ -96,11 +102,6 @@ export class ComidaEngComponent implements OnInit {
       name: "Portion of potatoes",
       price: 10,
       img: "Papas_Fritas"
-    },
-    {
-      name: "Nachos with cheese and bacon",
-      price: 25,
-      img: "Nachos_Queso"
     },
     {
       name: "Rolled piqueo, ham, bread and sauces",

@@ -47,6 +47,11 @@ export class BebidaEngComponent implements OnInit {
         img: "Warmi"
       },
       {
+        name: "Ajenjo Collins",
+        price: 25,
+        img: ""
+      },
+      {
         name: "Gin Cinnamon",
         price: 30,
         img: "Cinnamon"
@@ -61,21 +66,67 @@ export class BebidaEngComponent implements OnInit {
   casaList: LaCultaElement[] =
     [
       {
-        name: "Ajenjo",
+        name: "Ajenjo botella 750 ml",
         price: 150,
-        ingredients: "botanical liqueur",
+        ingredients: "Licor botánico",
         recomendation: "(botella)",
         img: "Ajenjo"
       },
       {
-        name: "Ajenjo Collins",
-        price: 25,
+        name: "Ajenjo botella 350 ml",
+        price: 95,
+        ingredients: "Licor botánico",
+        recomendation: "(botella)",
         img: "Ajenjo"
       },
       {
-        name: "Trencito los Cintis",
+        name: "Ajenjo botella 250 ml",
+        price: 55,
+        ingredients: "Licor botánico",
+        recomendation: "(botella)",
+        img: "Ajenjo"
+      },
+      {
+        name: "Ajenjo botella 50 ml",
+        price: 30,
+        ingredients: "Licor botánico",
+        recomendation: "(botella)",
+        img: "Ajenjo"
+      },
+      {
+        name: "Ratafia Botella 750 ml",
+        price: 95,
+        recomendation: "(botella)",
+      },
+      {
+        name: "Ratafia Botella 250 ml",
+        price: 50,
+        recomendation: "(botella)",
+      },
+      {
+        name: "Ratafia Botella 50 ml",
+        price: 30,
+        recomendation: "(botella)",
+      },
+      {
+        name: "Coñac botella 750 ml",
+        price: 150,
+        recomendation: "(botella)",
+      },
+      {
+        name: "Coñac botella 250 ml",
+        price: 55,
+        recomendation: "(botella)",
+      },
+      {
+        name: "Coñac botella 50 ml",
+        price: 30,
+        recomendation: "(botella)",
+      },
+      {
+        name: "Trencito los Cintis 4 botellas de 50 ml",
         price: 100,
-        ingredients: "Ratafia membrillo, ratafia ciruela, coñac, ajenjo.",
+        ingredients: "Ratafias, coñac, ajenjo.",
         img: "Trencito"
       }
     ]
@@ -99,6 +150,10 @@ export class BebidaEngComponent implements OnInit {
         price: 175,
         ingredients: "Mango, peach, tumbo, lemon.",
         img: "Charcas"
+      },
+      {
+        name: "Ajenjo Collins",
+        price: 25,
       }
     ]
 
@@ -114,11 +169,6 @@ export class BebidaEngComponent implements OnInit {
         name: "Margarita",
         price: 20,
         img: "Margarita"
-      },
-      {
-        name: "White Lady",
-        price: 20,
-        img: "White"
       },
       {
         name: "Negroni",
@@ -229,6 +279,12 @@ export class BebidaEngComponent implements OnInit {
         img: "Walker_Red"
       },
       {
+        name: "Jack Daniel's",
+        price: 400,
+        recomendation: "WHISKY",
+        img: "Jack"
+      },
+      {
         name: "Old Parr",
         price: 450,
         recomendation: "WHISKY",
@@ -270,11 +326,6 @@ export class BebidaEngComponent implements OnInit {
   otrosList: LaCultaElement[] =
     [
       {
-        name: "Ajenjo 750 ml",
-        price: 150,
-        img: "Ajenjo"
-      },
-      {
         name: "Ajenjo 250 ml",
         price: 60,
         img: "Ajenjo_Mediano",
@@ -292,34 +343,61 @@ export class BebidaEngComponent implements OnInit {
       {
         name: "Fernet branca",
         price: 170,
+        priceGlass: 20,
         img: "Branca"
       },
       {
         name: "Fernet menta",
         price: 170,
+        priceGlass: 20,
         img: "Branca_Menta"
       },
       {
         name: "Gin Tanqueray",
         price: 350,
+        priceGlass: 30,
         img: "Tanquerray"
       },
       {
-        name: "Gin La Republica Amazónico Andino",
-        price: 300,
-        img: "Republica"
-      },
-      {
-        name: "Gin La República Reserva del Maestro",
-        price: 330,
+        name: "Gin La República reserva del maestro",
+        price: 380,
+        priceGlass: 40,
         img: "Republica_Maestro"
       },
       {
-        name: "Tequila José Cuervo Reposado, Silver",
+        name: "Tequila José Cuervo reposado, plata",
         price: 200,
         img: "Tequila"
       }
-  ]
+    ]
+
+  shotsList: LaCultaElement[] =
+    [
+      {
+        name: "Ajenjo",
+        price: 15,
+        img: "Shot_Ajenjo_2"
+      },
+      {
+        name: "Tequila",
+        price: 15,
+        img: "Shot_Tequila"
+      },
+      {
+        name: "Jagermeister",
+        price: 15,
+        img: "Shot_Jagger"
+      },
+      {
+        name: "Vodka",
+        price: 15,
+        img: "Shot_Vodka"
+      },
+      {
+        name: "Ratafia",
+        price: 15,
+      },
+    ]
 
   sinAlcoholList: LaCultaElement[] =
     [

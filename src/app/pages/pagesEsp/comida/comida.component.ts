@@ -59,7 +59,13 @@ export class ComidaComponent implements OnInit {
         img: "Pique_Macho"
       },
       {
-        name: "Burguer de la casa",
+        name: "Burguer clásica de la casa",
+        price: 25,
+        ingredients: "300 gramos de carne de res, pan, pickels, lechuga, tocino, queso muzarella, papas fritas, mayonesa.",
+        img: "Burguer"
+      },
+      {
+        name: "Burguer premium",
         price: 30,
         ingredients: "300 gramos de carne de res, pan, pickels, lechuga, tocino, queso muzarella, papas fritas, mayonesa.",
         img: "Burguer"
@@ -96,11 +102,6 @@ export class ComidaComponent implements OnInit {
       name: "Porción de papas",
       price: 10,
       img: "Papas_Fritas"
-    },
-    {
-      name: "Nachos con queso y tocino",
-      price: 25,
-      img: "Nachos_Queso"
     },
     {
       name: "Piqueo enrollado, jamon, pan y salsas",

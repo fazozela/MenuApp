@@ -9,6 +9,31 @@ import { LaCultaElement } from 'src/app/interfaces/element.interface';
 })
 export class CafeComponent implements OnInit {
 
+  desayunoList: LaCultaElement[] =
+  [
+    {
+      name: "KARAPANZA",
+      price: 40,
+      ingredients: "Jamón, enrollado, café y jugo"
+    },
+    {
+      name: "Huevos rancheros, café - té o jugo",
+      price: 35,
+    },
+    {
+      name: "Sandwich enrollado",
+      price: 15,
+    },
+    {
+      name: "Sandwich jamón",
+      price: 15,
+    },
+    {
+      name: "Jugos",
+      price: 10,
+    },
+  ]
+
   cafeList: LaCultaElement[] =
   [
     {
