@@ -14,22 +14,6 @@ export class PostreComponent implements OnInit {
         name: "Sable de frutos rojos",
         price: 18,
         img: "Sable"
-      },
-      {
-        name: "Minitarta de hojarascas con guayaba",
-        price: 18,
-        img: "Minitarta"
-      },
-      {
-        name: "Trufas de ajenjo",
-        price: 25,
-        ingredients: "Paquete de 9 unidades.",
-        img: "Trufas"
-      },
-      {
-        name: "Torta de chocolate amargo y ajenjo",
-        price: 20,
-        img: "Chocolate_Amargo"
       }
     ]
 

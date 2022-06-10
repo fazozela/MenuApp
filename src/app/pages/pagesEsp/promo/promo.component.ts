@@ -41,7 +41,7 @@ export class PromoComponent implements OnInit {
         img: "Caipirinha"
       },
       {
-        name: "Cerveza rubia o artesanal 2x1",
+        name: "Cerveza rubia o artesanal",
         price: "30",
         img: "Promo_Artesanal"
       },
@@ -51,13 +51,14 @@ export class PromoComponent implements OnInit {
         img: "Promo_Gin"
       },
       {
-        name: "Ajenjo Collins 2x35",
+        name: "Ajenjo Collins",
         price: 35,
         img: ""
       },
       {
-        name: "cubeta botellines 5 cervezas mix",
+        name: "Cubeta botellines",
         price: 90,
+        recomendation: "5 cervezas mix",
         img: ""
       }
     ]
