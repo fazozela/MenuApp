@@ -23,6 +23,7 @@ import { PromoEngComponent } from './pages/pagesEng/promo-eng/promo-eng.componen
 import { JuegoEngComponent } from './pages/pagesEng/juego-eng/juego-eng.component';
 import { GoBackEngComponent } from './extras/go-back-eng/go-back-eng.component';
 import { ImagenPipe } from './pipes/imagen.pipe';
+import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,9 @@ import { ImagenPipe } from './pipes/imagen.pipe';
     AppRoutingModule,
     NgbModule
   ],
-  providers: [],
+  providers: [
+    {provide : LocationStrategy , useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
