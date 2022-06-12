@@ -61,16 +61,37 @@ export class ComidaEngComponent implements OnInit {
       {
         name: "Classic house burger",
         price: 25,
-        ingredients: "300 grams of beef, bread, pickels, lettuce, bacon, mozzarella cheese, french fries, mayonnaise.",
+        ingredients: "150 grams of beef, bread, pickels, lettuce, bacon, mozzarella cheese, french fries, mayonnaise.",
         img: "Burguer"
       },
       {
         name: "Premium burger",
-        price: 30,
-        ingredients: "300 grams of beef, bread, pickels, lettuce, bacon, mozzarella cheese, french fries, mayonnaise.",
+        price: 35,
+        ingredients: "180 grams of beef, bread, pickels, lettuce, bacon, mozzarella cheese, french fries, mayonnaise.",
         img: "Burguer"
       }
     ]
+
+  piqueoList: LaCultaElement[] =
+  [
+    {
+      name: "Portion of rustic potatoes",
+      price: 25,
+      ingredients: "French fries, bacon, melted cheese, tripitas, chives.",
+      recomendation: "(2 persons)",
+      img: "Papas_Rusticas"
+    },
+    {
+      name: "Portion of potatoes",
+      price: 10,
+      img: "Papas_Fritas"
+    },
+    {
+      name: "Rolled piqueo, ham, bread and sauces",
+      price: 40,
+      img: "Piqueo_Tabla"
+    }
+  ]
 
   paniniList: LaCultaElement[] =
     [
@@ -90,25 +111,6 @@ export class ComidaEngComponent implements OnInit {
         img: "Panini_Pesto"
       }
     ]
-
-  piqueoList: LaCultaElement[] =
-  [
-    {
-      name: "Portion of rustic potatoes",
-      price: 25,
-      img: "Papas_Rusticas"
-    },
-    {
-      name: "Portion of potatoes",
-      price: 10,
-      img: "Papas_Fritas"
-    },
-    {
-      name: "Rolled piqueo, ham, bread and sauces",
-      price: 40,
-      img: "Piqueo_Tabla"
-    }
-  ]
 
   constructor() { }
 

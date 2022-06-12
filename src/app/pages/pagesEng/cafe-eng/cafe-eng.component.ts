@@ -13,25 +13,25 @@ export class CafeEngComponent implements OnInit {
     {
       name: "KARAPANZA",
       price: 40,
-      ingredients: "Jamón, enrollado, café y jugo"
+      ingredients: "Ham, rolled, coffee and juice."
     },
     {
-      name: "Huevos rancheros, café - té o jugo",
+      name: "Huevos rancheros, coffee - tea or juice",
       price: 35,
     },
     {
-      name: "Sandwich enrollado",
+      name: "Rolled sandwich",
       price: 15,
     },
     {
-      name: "Sandwich jamón",
+      name: "Ham Sandwich",
       price: 15,
     },
     {
-      name: "Jugos",
+      name: "Juices",
       price: 10,
     },
-    ]
+  ]
 
   cafeList: LaCultaElement[] =
   [

@@ -11,7 +11,7 @@ export class PromoEngComponent implements OnInit {
   promoList: LaCultaElement[] =
   [
     {
-      name: "Ron",
+      name: "Rum",
       price: "30",
       img: "Vaso_Ron"
     },
@@ -41,7 +41,7 @@ export class PromoEngComponent implements OnInit {
       img: "Caipirinha"
     },
     {
-      name: "Blonde or craft beer 2x1",
+      name: "Blonde or craft beer",
       price: "30",
       img: "Promo_Artesanal"
     },
@@ -51,13 +51,14 @@ export class PromoEngComponent implements OnInit {
       img: "Promo_Gin"
     },
     {
-      name: "Ajenjo Collins 2x35",
+      name: "Ajenjo Collins",
       price: 35,
       img: ""
     },
     {
-      name: "cubeta botellines 5 cervezas mix",
+      name: "Bucket of bottles",
       price: 90,
+      recomendation: "5 mixed beers",
       img: ""
     }
 

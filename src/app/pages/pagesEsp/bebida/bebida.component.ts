@@ -13,7 +13,7 @@ export class BebidaComponent implements OnInit {
     [
       {
         name: "Horchalita",
-        ingredients: "Rob blanco, coco, airampo.",
+        ingredients: "Ron blanco, coco, airampo.",
         price: 25,
         img: "Horchalita"
       },
@@ -31,7 +31,7 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Jatun Pocoy",
-        ingredients: "Ron 7años, supay, ajenjo, palo santo.",
+        ingredients: "Ron 7 años, supay, ajenjo, palo santo.",
         price: 30,
         img: "Jatun"
       },
@@ -236,7 +236,7 @@ export class BebidaComponent implements OnInit {
         img: "Branca_Julep"
       },
       {
-        name: "Gin tonic / Gin con gin",
+        name: "Gin tonic/Gin con gin",
         price: 30,
         img: ""
       },

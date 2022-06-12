@@ -13,118 +13,145 @@ export class BebidaEngComponent implements OnInit {
     [
       {
         name: "Horchalita",
+        ingredients: "White Rum, coco, airampo.",
         price: 25,
         img: "Horchalita"
       },
       {
         name: "Mockochinchi",
+        ingredients: "7 years Rum, Singani, vermut.",
         price: 30,
         img: "Mockochinchi"
       },
       {
         name: "Juanita guayaba",
         price: 30,
+        ingredients: "Gin, guayaba jam, orange juice.",
         img: "Juanita"
       },
       {
         name: "Jatun Pocoy",
+        ingredients: "7 years Rum, supay, ajenjo, palo santo.",
         price: 30,
         img: "Jatun"
       },
       {
         name: "Misky Sucre",
+        ingredients: "7 years Rum, cocoa, milk.",
         price: 30,
         img: "Misky"
       },
       {
         name: "K´achamosita",
+        ingredients: "Singani, ratafia, fruit mix.",
         price: 30,
         img: "Kachamosita"
       },
       {
         name: "Warmi",
-        price: 30,
+        ingredients: "Vodka, airampo, grapefruit, camu camu.",
+        price: 25,
         img: "Warmi"
       },
       {
         name: "Ajenjo Collins",
+        ingredients: "Ajenjo, mixer.",
         price: 25,
         img: ""
       },
       {
         name: "Gin Cinnamon",
+        ingredients: "Gin, cinnamon, mocochinchi.",
+        price: 30,
+        img: "Cinnamon"
+      },
+      {
+        name: "Hot Cocktail",
         price: 30,
         img: "Cinnamon"
       },
       {
         name: "Caramel",
+        ingredients: "White rum, dulce de leche, coconut.",
         price: 25,
         img: "Caramel"
       }
     ]
 
+  tikiList: LaCultaElement[] =
+  [
+    {
+      name: "Blue Hawai",
+      price: 35,
+      img: ""
+    },
+    {
+      name: "Uga, Ugha",
+      price: 40,
+      img: ""
+    },
+    {
+      name: "Contiki",
+      price: 35,
+      img: ""
+    }
+  ]
+
   casaList: LaCultaElement[] =
     [
       {
-        name: "Ajenjo botella 750 ml",
+        name: "Ajenjo bottle 750 ml",
         price: 150,
-        ingredients: "Licor botánico",
-        recomendation: "(botella)",
+        ingredients: "botanical liqueur",
+        recomendation: "(bottle)",
         img: "Ajenjo"
       },
       {
-        name: "Ajenjo botella 350 ml",
-        price: 95,
-        ingredients: "Licor botánico",
-        recomendation: "(botella)",
+        name: "Ajenjo bottle 250 ml",
+        price: 60,
+        ingredients: "botanical liqueur",
+        recomendation: "(bottle)",
         img: "Ajenjo"
       },
       {
-        name: "Ajenjo botella 250 ml",
-        price: 55,
-        ingredients: "Licor botánico",
-        recomendation: "(botella)",
-        img: "Ajenjo"
-      },
-      {
-        name: "Ajenjo botella 50 ml",
+        name: "Ajenjo bottle 50 ml",
         price: 30,
-        ingredients: "Licor botánico",
-        recomendation: "(botella)",
+        ingredients: "botanical liqueur",
+        recomendation: "(bottle)",
         img: "Ajenjo"
       },
       {
-        name: "Ratafia Botella 750 ml",
+        name: "Ratafia bottle 750 ml",
         price: 95,
-        recomendation: "(botella)",
+        recomendation: "(bottle)",
       },
       {
-        name: "Ratafia Botella 250 ml",
+        name: "Ratafia bottle 250 ml",
         price: 50,
-        recomendation: "(botella)",
+        recomendation: "(bottle)",
       },
       {
-        name: "Ratafia Botella 50 ml",
+        name: "Ratafia bottle 50 ml",
         price: 30,
-        recomendation: "(botella)",
+        recomendation: "(bottle)",
       },
       {
-        name: "Coñac botella 750 ml",
+        name: "Coñac bottle 750 ml",
         price: 150,
-        recomendation: "(botella)",
+        recomendation: "(bottle)",
       },
       {
-        name: "Coñac botella 250 ml",
+        name: "Coñac bottle 250 ml",
         price: 55,
-        recomendation: "(botella)",
+        recomendation: "(bottle)",
       },
       {
-        name: "Coñac botella 50 ml",
+        name: "Coñac bottle 50 ml",
         price: 30,
-        recomendation: "(botella)",
+        recomendation: "(bottle)",
       },
       {
-        name: "Trencito los Cintis 4 botellas de 50 ml",
+        name: "Trencito los Cintis 4 bottles 50 ml",
         price: 100,
         ingredients: "Ratafias, coñac, ajenjo.",
         img: "Trencito"
@@ -135,25 +162,26 @@ export class BebidaEngComponent implements OnInit {
     [
       {
         name: "Berry Singani Punch",
-        price: 175,
-        ingredients: "Berries, singani, carbonated water, lemon.",
+        price: 170,
+        ingredients: "Red fruits, singani, carbonated water, lemon.",
         img: "Berries3"
       },
       {
         name: "Singanito",
-        price: 175,
-        ingredients: "Botella San Pedro, ice, lemon, bitter and cinnamon.",
+        price: 180,
+        ingredients: "San Pedro bottle, ice, lemon, bitter and cinnamon.",
         img: "Singanito"
       },
       {
         name: "Charcas Punch",
         price: 175,
-        ingredients: "Mango, peach, tumbo, lemon.",
+        ingredients: "Mango, maracuyá, tumbo, lemon.",
         img: "Charcas"
       },
       {
-        name: "Ajenjo Collins",
-        price: 25,
+        name: "Ajenjo",
+        price: 175,
+        ingredients: "botanical liqueur."
       }
     ]
 
@@ -162,52 +190,69 @@ export class BebidaEngComponent implements OnInit {
       {
         name: "Old Fashioned",
         price: 30,
-        ingredients: "Smoked drink",
+        ingredients: "Whisky, smoked oak.",
         img: "Old"
       },
       {
         name: "Margarita",
-        price: 20,
+        price: 30,
+        ingredients: "White Tequila, cointreau.",
         img: "Margarita"
       },
       {
         name: "Negroni",
-        price: 20,
+        price: 30,
+        ingredients: "Gin, vermut, campari.",
         img: "Negroni"
       },
       {
         name: "Berry Singani Punch",
         price: 30,
+        ingredients: "Singani, red fruits.",
         img: "BerryV"
       },
       {
         name: "Piña colada",
         price: 25,
+        ingredients: "White Rum, coconut, pineapple.",
         img: "PinaColada"
       },
       {
         name: "Fruit Mojitos",
         price: 25,
+        ingredients: "Dark rum, seasonal fruits.",
         img: "Mojito_Frutado"
       },
       {
         name: "Queen Park Swizzle",
         price: 30,
+        ingredients: "7 years RUM , bitter, mint.",
         img: "Queen"
       },
       {
         name: "Branca Julep",
         price: 25,
+        ingredients: "Fernet branca, bitter, mint.",
         img: "Branca_Julep"
+      },
+      {
+        name: "Gin tonic/Gin con gin",
+        price: 30,
+        img: ""
+      },
+      {
+        name: "Caipiriña",
+        price: 20,
+        img: ""
       }
     ]
 
-  botellinesList: LaCultaElement[] =
+  cervezasList: LaCultaElement[] =
     [
       {
         name: "Huari beer bottle",
         price: 20,
-        ingredients: "Chocolate, Miel, Lagger",
+        ingredients: "Lagger, honey.",
         img: "Botellin_Huari"
       },
       {
@@ -221,119 +266,111 @@ export class BebidaEngComponent implements OnInit {
         img: "Surena"
       },
       {
-        name: "Craft beer bottle",
+        name: "craft beer bottle",
         price: 20,
         ingredients: "Black, White, Ipa, Maracuyango",
         img: "Artesanal"
-      }
-    ]
-
-  botella620List: LaCultaElement[] =
-    [
+      },
       {
-        name: "Huari beer",
+        name: "Huari 620 ml beer",
         price: 25,
         img: "Huari620"
-      }
-    ]
-
-  botellaLitroList: LaCultaElement[] =
-    [
+      },
       {
-        name: "Paceña beer",
+        name: "Paceña 1 L beer",
         price: 30,
         img: "Pacena1"
       },
       {
-        name: "Potosina beer",
+        name: "Potosina 1250 ml beer",
         price: 35,
         ingredients: "1250ml",
         img: "Potosina"
+      },
+      {
+        name: "Huari beer barrel",
+        price: 125,
+        img: ""
+      },
+      {
+        name: "Paceña beer barrel",
+        price: 110,
+        img: ""
+      },
+      {
+        name: "Potosina beer barrel",
+        price: 100,
+        img: ""
       }
     ]
 
-  botellaList: LaCultaElement[] =
+  botellasList: LaCultaElement[] =
     [
       {
         name: "Johnnie Walker Gold",
-        price: 730,
-        recomendation: "WHISKY",
+        priceGlass: 75,
+        price: 800,
         img: "Walker_Gold"
       },
       {
         name: "Johnnie Walker Double Black",
-        price: 500,
-        recomendation: "WHISKY",
+        priceGlass: 60,
+        price: 550,
         img: "Walker"
       },
       {
         name: "Johnnie Walker Black",
-        price: 400,
-        recomendation: "WHISKY",
+        priceGlass: 45,
+        price: 450,
         img: "Walker_Black"
       },
       {
         name: "Johnnie Walker Red",
-        price: 200,
+        priceGlass: 35,
+        price: 300,
         recomendation: "WHISKY",
         img: "Walker_Red"
       },
       {
         name: "Jack Daniel's",
+        priceGlass: 40,
         price: 400,
-        recomendation: "WHISKY",
         img: "Jack"
       },
       {
         name: "Old Parr",
+        priceGlass: 45,
         price: 450,
-        recomendation: "WHISKY",
         img: "Old_Parr"
       },
       {
         name: "Sandy Mac",
-        price: 200,
-        recomendation: "WHISKY",
+        priceGlass: 35,
+        price: 300,
         img: "Sandy_Mac"
       },
       {
-        name: "San Pedro",
+        name: "Singani San Pedro",
+        priceGlass: 20,
         price: 175,
-        recomendation: "SINGANI",
         img: "San_Pedro"
       },
       {
-        name: "Tierra Alta",
+        name: "Singani Tierra Alta",
+        priceGlass: 20,
         price: 175,
-        recomendation: "SINGANI",
         img: "Tierra_Alta"
       },
       {
-        name: "Flor de Caña 5 years",
+        name: "Flor de Caña 5 años",
+        priceGlass: 20,
         price: 160,
-        recomendation: "RON",
         img: "Flor"
       },
       {
-        name: "Ron Abuelo 7 years",
+        name: "Ron Abuelo 7 años",
         price: 220,
-        recomendation: "RON",
         img: "Abuelo"
-      },
-
-    ]
-
-  otrosList: LaCultaElement[] =
-    [
-      {
-        name: "Ajenjo 250 ml",
-        price: 60,
-        img: "Ajenjo_Mediano",
-      },
-      {
-        name: "Ajenjo 50 ml",
-        price: 30,
-        img: "Shot_Ajenjo"
       },
       {
         name: "Jaguermeister",
@@ -342,32 +379,102 @@ export class BebidaEngComponent implements OnInit {
       },
       {
         name: "Fernet branca",
-        price: 170,
         priceGlass: 20,
+        price: 170,
         img: "Branca"
       },
       {
         name: "Fernet menta",
-        price: 170,
         priceGlass: 20,
+        price: 170,
         img: "Branca_Menta"
       },
       {
         name: "Gin Tanqueray",
-        price: 350,
         priceGlass: 30,
+        price: 350,
         img: "Tanquerray"
       },
       {
         name: "Gin La República reserva del maestro",
         price: 380,
-        priceGlass: 40,
         img: "Republica_Maestro"
       },
       {
         name: "Tequila José Cuervo reposado, plata",
         price: 200,
         img: "Tequila"
+      },
+      {
+        name: "Vodka 1825",
+        price: 250,
+        img: ""
+      },
+      {
+        name: "Ajenjo",
+        priceGlass: 25,
+        price: 175,
+        img: "Ajenjo_Mediano",
+      }
+    ]
+
+  vinosList: LaCultaElement[] =
+    [
+      {
+        name: "Aranjuez Terruño red/white",
+        price: 75,
+        img: ""
+      },
+      {
+        name: "Clásico red/white (copa)",
+        price: 18,
+        img: ""
+      },
+      {
+        name: "Duo red/white",
+        price: 95,
+        img: ""
+      },
+      {
+        name: "Rose",
+        price: 120,
+        img: ""
+      },
+      {
+        name: "Tanat",
+        price: 160,
+        img: ""
+      },
+      {
+        name: "Chandon (Champagne)",
+        price: 250,
+        ingredients: "Extra Brut, Delice.",
+        img: ""
+      },
+      {
+        name: "Campos de Solana red/white",
+        price: 120,
+        img: ""
+      },
+      {
+        name: "Encuentro",
+        price: 100,
+        img: ""
+      },
+      {
+        name: "La Casona Molina",
+        price: 200,
+        img: ""
+      },
+      {
+        name: "Legado de Riviera blanco",
+        price: 250,
+        img: ""
+      },
+      {
+        name: "Trivarietal (Tannat, Malbec, Petit Verdot)",
+        price: 320,
+        img: ""
       }
     ]
 
@@ -380,23 +487,23 @@ export class BebidaEngComponent implements OnInit {
       },
       {
         name: "Tequila",
-        price: 15,
+        price: 18,
         img: "Shot_Tequila"
       },
       {
         name: "Jagermeister",
-        price: 15,
+        price: 20,
         img: "Shot_Jagger"
-      },
-      {
-        name: "Vodka",
-        price: 15,
-        img: "Shot_Vodka"
       },
       {
         name: "Ratafia",
         price: 15,
       },
+      {
+        name: "Coñac",
+        price: 15,
+        img: "Shot_Vodka"
+      }
     ]
 
   sinAlcoholList: LaCultaElement[] =
@@ -410,23 +517,23 @@ export class BebidaEngComponent implements OnInit {
       {
         name: "Natural juices",
         price: 10,
-        recomendation: "Cup",
+        recomendation: "Glass",
         img: "Jugos"
       },
       {
         name: "Natural juices",
         price: 18,
-        recomendation: "1 LT",
+        recomendation: "1 Lt",
         img: "Jugos"
       },
       {
         name: "Natural juices",
         price: 25,
-        recomendation: "2 LT",
+        recomendation: "2 Lt",
         img: "Jugos"
       },
       {
-        name: "Still and sparkling water",
+        name: "Soda/Still water",
         price: 10,
         img: "Agua"
       },
@@ -441,7 +548,7 @@ export class BebidaEngComponent implements OnInit {
         name: "Soda",
         price: 20,
         ingredients: "Salvietti, Coca-Cola, Fanta, Sprite, Guaraná",
-        recomendation: "2 LT",
+        recomendation: "2 Lt",
         img: "Soda"
       }
   ]
