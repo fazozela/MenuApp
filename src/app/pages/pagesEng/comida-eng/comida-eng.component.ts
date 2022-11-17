@@ -12,19 +12,19 @@ export class ComidaEngComponent implements OnInit {
     [
       {
         name: "Creole pasta",
-        price: 30,
+        price: 35,
         ingredients: "Creole pasta, milk cream, basil, bacon, sautéed chicken.",
         img: "Pasta_Criolla"
       },
       {
         name: "Milanesa Cheese",
-        price: 30,
+        price: 35,
         ingredients: "Chicken milanese, cheese, tomato, rustic fries.",
         img: "Mila_Cheese"
       },
       {
         name: "Karapecho",
-        price: 30,
+        price: 35,
         ingredients: "Dehydrated meat, mote, potato, egg, lemon.",
         img: "Karapecho"
       },
@@ -54,13 +54,13 @@ export class ComidaEngComponent implements OnInit {
       },
       {
         name: "Pique a lo macho",
-        price: 35,
+        price: 45,
         ingredients: "Beef, sausage, french fries, onion tomato, quail egg, sauces, mayonnaise and spicy mayonnaise.",
         img: "Pique_Macho"
       },
       {
         name: "Classic house burger",
-        price: 25,
+        price: 30,
         ingredients: "150 grams of beef, bread, pickels, lettuce, bacon, mozzarella cheese, french fries, mayonnaise.",
         img: "Burguer"
       },
@@ -97,17 +97,17 @@ export class ComidaEngComponent implements OnInit {
     [
       {
         name: "Sullka panini",
-        price: 22,
+        price: 25,
         img: "Panini_Sullka"
       },
       {
         name: "Bacon and Cheese Panini",
-        price: 20,
+        price: 25,
         img: "Panini_Tocino"
       },
       {
         name: "Panini cheese and pesto",
-        price: 20,
+        price: 25,
         img: "Panini_Pesto"
       }
     ]

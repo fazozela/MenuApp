@@ -32,12 +32,12 @@ export class PromoEngComponent implements OnInit {
     },
     {
       name: "Dirty Mojito",
-      price: "35",
+      price: "40",
       img: "Dirty_Mojito"
     },
     {
       name: "Caipirinha",
-      price: "30",
+      price: "40",
       img: "Caipirinha"
     },
     {

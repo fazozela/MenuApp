@@ -14,7 +14,7 @@ export class BebidaComponent implements OnInit {
       {
         name: "Horchalita",
         ingredients: "Ron blanco, coco, airampo.",
-        price: 25,
+        price: 30,
         img: "Horchalita"
       },
       {
@@ -44,13 +44,13 @@ export class BebidaComponent implements OnInit {
       {
         name: "K´achamosita",
         ingredients: "Singani, ratafia, mix de frutas.",
-        price: 30,
+        price: 35,
         img: "Kachamosita"
       },
       {
         name: "Warmi",
         ingredients: "Vodka, airampo, pomelo, camu camu.",
-        price: 25,
+        price: 35,
         img: "Warmi"
       },
       {
@@ -73,7 +73,7 @@ export class BebidaComponent implements OnInit {
       {
         name: "Caramel",
         ingredients: "Ron blanco, dulce de leche, coco.",
-        price: 25,
+        price: 30,
         img: "Caramel"
       }
     ]
@@ -174,13 +174,13 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Charcas Punch",
-        price: 175,
+        price: 190,
         ingredients: "Mango, maracuyá, tumbo, limón.",
         img: "Charcas"
       },
       {
         name: "Ajenjo",
-        price: 175,
+        price: 180,
         ingredients: "Licor botánico."
       }
     ]
@@ -201,7 +201,7 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Negroni",
-        price: 30,
+        price: 40,
         ingredients: "Gin, vermut, campari.",
         img: "Negroni"
       },
@@ -213,13 +213,13 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Piña colada",
-        price: 25,
+        price: 30,
         ingredients: "Ron blanco, coco, piña.",
         img: "PinaColada"
       },
       {
         name: "Mojitos frutados",
-        price: 25,
+        price: 30,
         ingredients: "Ron oscuro, frutas de temporada.",
         img: "Mojito_Frutado"
       },
@@ -231,7 +231,7 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Branca Julep",
-        price: 25,
+        price: 30,
         ingredients: "Fernet branca, bitter, menta.",
         img: "Branca_Julep"
       },
@@ -242,7 +242,7 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Caipiriña",
-        price: 20,
+        price: 25,
         img: ""
       }
     ]
@@ -257,7 +257,7 @@ export class BebidaComponent implements OnInit {
       },
       {
         name: "Botellín cerveza Corona",
-        price: 20,
+        price: 25,
         img: "Corona"
       },
       {

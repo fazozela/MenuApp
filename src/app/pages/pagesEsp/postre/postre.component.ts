@@ -12,7 +12,7 @@ export class PostreComponent implements OnInit {
     [
       {
         name: "Sable de frutos rojos",
-        price: 18,
+        price: 20,
         img: "Sable"
       }
     ]
